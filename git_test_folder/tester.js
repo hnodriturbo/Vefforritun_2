@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 function ask(question) {
   return new Promise((resolve) => rl.question(question, resolve));
 }
-
+// eitthvað
 async function main() {
   try {
     const currentBranch = execSync('git rev-parse --abbrev-ref HEAD')
